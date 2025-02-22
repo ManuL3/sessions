@@ -1,5 +1,6 @@
 module github.com/ManuL3/sessions
 
+
 go 1.23
 
 require modernc.org/sqlite v1.35.0

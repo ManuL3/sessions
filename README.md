@@ -105,20 +105,20 @@ func handleContextCancel(w http.ResponseWriter, ctx context.Context) bool
 
 #### Installation:
 
-1. Clone the repository:
+Clone the repository:
 
 ``` bash
    git clone https://github.com/ManuL3/sessions.git
    cd sessions
 ```
 
-1. Install dependencies (if any modules are declared):
+Install dependencies (if any modules are declared):
 
 ``` bash
    go mod tidy
 ```
 
-1. Implement the `SessionStore` interface with your desired session storage mechanism (e.g., database, in-memory store).
+Implement the `SessionStore` interface with your desired session storage mechanism (e.g., database, in-memory store).
 
 ### Usage
 
@@ -129,7 +129,7 @@ package main
 
 import (
 	"net/http"
-	"mrSession/session"
+	"github.com/ManuL3/sessions/session"
 )
 
 // Mock SessionStore Implementation

@@ -2,8 +2,8 @@ package main
 
 import (
 	"encoding/gob"
+	"github.com/ManuL3/sessions/session"
 	"log"
-	"mrSession/session" // Replace with your module name
 	"net/http"
 	"time"
 )
