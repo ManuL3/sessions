@@ -1,10 +1,13 @@
+### Latest version
+**0.01**
+
 ## Contributing 
 
 This project is intended as a personal initiative, shared primarily for use in other personal Go projects. While the
 code is publicly accessible, contributions, suggestions, or pull requests are not required or expected. 
 
 
-## Project Overview
+## Project Overview 
 
 This project provides a **session management middleware** for Go web applications. It includes session validation
 functionalities and utility methods to manage session data efficiently. The middleware is built to integrate seamlessly
