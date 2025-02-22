@@ -1,4 +1,4 @@
-module mrSession
+module github.com/ManuL3/sessions
 
 go 1.23
 
