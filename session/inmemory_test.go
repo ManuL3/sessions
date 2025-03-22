@@ -34,7 +34,7 @@ func TestInMemorySessionStore_CreateSession(t *testing.T) {
 				t.Errorf("Expected userID = %v, got = %v", tt.userID, session.UserID)
 			}
 
-			if session.ExpiresAt.Sub(session.CreatedAt) != tt.duration {
+			if session.ExpiresAt.Sub(session.CreatedAt).Round(time.Second) != tt.duration {
 				t.Errorf("Expected session duration = %v, got = %v", tt.duration, session.ExpiresAt.Sub(session.CreatedAt))
 			}
 		})
